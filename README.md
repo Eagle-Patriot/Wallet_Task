@@ -82,4 +82,3 @@ Adding new payment gateways requires:
 1. Add new enum value to `PaymentGateway`
 2. Create new strategy implementing `PaymentGatewayStrategy`
 3. Update `PaymentGatewayFactory`
-4. **No changes to `PaymentService` required!**
